@@ -1,4 +1,4 @@
-# first assignment
+# First Assignment: Basic Portfolio
 
 Task: create personal site with 3 webpages (About, Portfolio, and Contact) using learned css skills
 
