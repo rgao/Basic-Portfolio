@@ -2,15 +2,36 @@ html {
     background-image: url("../images/stardust/stardust.png");
 }
 
+nav {
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+
+.name {
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
 h2 {
     color: #4aaaa5;
 }
 
-.container{
-    width: 960px;
-}
-
 .main-content {
+    width: 960px;
+    margin: auto;
     padding: 5px 15px 20px 15px;
     background-color: #ffffff;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 30px 0px 5px 0px;
+    border-top: 5px solid;
+    border-color: #4aaaa5;
+    font-size: 12px;
+    text-align: center;
+    background-color: #666666;
+    color: #ffffff;
 }
