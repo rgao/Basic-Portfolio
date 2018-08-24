@@ -91,7 +91,6 @@ p {
 
 .box {
     position: relative;
-    float: left;
     margin: 0px 70px 20px 0px;
 }
 
@@ -100,11 +99,13 @@ p {
 }
 
 .squarebox {
+    float: left;
     width: 175px;
     height: 175px;
 }
 
 .rectanbox {
+    float: left;
     width: 240px;
     height: 135px;
 }
