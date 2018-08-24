@@ -71,6 +71,10 @@ a {
     text-decoration: none;
 }
 
+a:link {
+    color: #999999;
+}
+
 a:visited {
     color: #999999;    
 }
