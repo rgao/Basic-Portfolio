@@ -85,23 +85,25 @@ p {
 /*elements specific to portfolio.html*/
 
 .projects {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
-.projectimg {
+.box {
     margin: 0px 70px 20px 0px;
 }
 
-.leftimg {
+.leftbox {
     float: left;
 }
 
-.squareimg {
+.squarebox {
+    position: relative;
     width: 175px;
     height: 175px;
 }
 
-.rectangleimg {
+.rectanbox {
+    position: relative;
     width: 240px;
     height: 135px;
 }
@@ -111,10 +113,18 @@ p {
     border: solid 2px blue;
 }
 
-#aci {
+.hybridbox {
+    position: relative;
     width: 198px;
     height: 148.5px;
     border: solid 2px darkblue;
+}
+
+.projectimg {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    /* margin: 0px 70px 20px 0px; */
 }
 
 .projectname {
