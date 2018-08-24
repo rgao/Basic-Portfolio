@@ -4,7 +4,6 @@ html {
 
 nav {
     height: 80px;
-    line-height: 80px;
     margin-bottom: 20px;
     border-bottom: solid #cccccc;
     background-color: #ffffff;
@@ -14,7 +13,6 @@ nav {
     position: relative;
     width: 1000px;
     height: 100%;
-    line-height: 100%;
     margin: auto;
 }
 
@@ -23,15 +21,66 @@ nav {
     position: absolute;
     height: 100%;
     vertical-align: middle;
-    /* padding: 20px; */
     background-color: #4aaaa5;
     color: #ffffff;
 }
 
+h1 {
+    font-size: 30px;
+    padding: 20px;
+}
+
 .menu {
-    float: right;
+    position: absolute;
+    right: 0;
+    height: 100%;
     font-family: Helvetica;
     color: #777777;
+}
+
+ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+} 
+
+li {
+    font-size: 16px;
+    color: #cccccc;
+}
+
+#aboutmenu {
+    float: left;
+    padding-right: 15px;
+    border-right: solid 1px #eeeeee;
+}
+
+#portfoliomenu {
+    float: left;
+    padding: 0px 15px;
+    border-right: solid 1px #eeeeee;
+}
+
+#contactmenu {
+    float: left;
+    padding-left: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #999999;    
+}
+
+a:hover {
+    color: lightblue;
+}
+
+a:active {
+    color: green;
 }
 
 h2 {
@@ -137,7 +186,7 @@ p {
 }
 
 .projectname {
-    font-size: 13px;
+    font-size: 14px;
     padding: 3px 0px;
 }
 
